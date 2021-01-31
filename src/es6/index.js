@@ -1,9 +1,9 @@
-import "./Global/let.js";
+//import "./Global/let.js";
 //import "./Global/const.js";
 //import "./Global/arrowFunction.js";
 //import "./Global/importAndExport.js";
 //import "./Global/restParameter.js";
-//import "./Global/spreadOperator.js";
+import "./Global/spreadOperator.js";
 
 //import "./Class/definition.js";
 //import "./Class/inheritance.js";
