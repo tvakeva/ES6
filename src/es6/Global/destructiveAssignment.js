@@ -37,3 +37,18 @@
   console.log(x, y);
   console.log(rest);
 }
+
+const lista = [1, 2, 3, 4, 5];
+const uusiLista = [...lista, 6];
+const [eka, toka, ...loppulista] = lista;
+//const [eka, toka, ...loppulista] = [7, ...lista, 6];
+
+console.log(uusiLista);
+console.log(eka, toka, loppulista);
+
+const restParamFunc = (eka, toka, ...loput) => {
+  console.log("!!!", eka, toka, loput);
+};
+
+restParamFunc(1, 2, 3, 4, 5, 6, 7, 8, 9);
+restParamFunc(...lista);

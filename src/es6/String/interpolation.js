@@ -7,4 +7,7 @@ const occupation = "Programmer";
 const text = `Applicant name: ${name} (${age}).
 Working as ${occupation}.`;
 
+const text2 =
+  "Applicant name: " + name + " (" + age + ").\nWorking as " + occupation + ".";
 console.log(text);
+console.log(text2);

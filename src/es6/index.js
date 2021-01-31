@@ -13,7 +13,7 @@
 //import "./Global/isFinite.js";
 //import "./Global/isNaN.js";
 //import "./Global/thisUpdated.js";
-import "./Global/destructiveAssignment.js";
+//import "./Global/destructiveAssignment.js";
 //import "./Global/iterator.js";
 //import "./Global/generator.js";
 //import "./Global/set.js";
