@@ -18,10 +18,11 @@
     distance: 1.524
   };
 
-  const { name, moons } = mars;
+  const { name, moons, ...loput } = mars;
 
   console.log(name);
   console.log(moons);
+  console.log(loput);
 }
 
 // Destructive Assignment with default values
@@ -31,7 +32,8 @@
 
   console.log(a, b);
 
-  const list = [1];
-  const [x, y = 2] = list;
+  const list = [1, 4, 5, 6];
+  const [x, y = 2, ...rest] = list;
   console.log(x, y);
+  console.log(rest);
 }

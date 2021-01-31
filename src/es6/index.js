@@ -3,7 +3,7 @@
 //import "./Global/arrowFunction.js";
 //import "./Global/importAndExport.js";
 //import "./Global/restParameter.js";
-import "./Global/spreadOperator.js";
+//import "./Global/spreadOperator.js";
 
 //import "./Class/definition.js";
 //import "./Class/inheritance.js";
@@ -13,7 +13,7 @@ import "./Global/spreadOperator.js";
 //import "./Global/isFinite.js";
 //import "./Global/isNaN.js";
 //import "./Global/thisUpdated.js";
-//import "./Global/destructiveAssignment.js";
+import "./Global/destructiveAssignment.js";
 //import "./Global/iterator.js";
 //import "./Global/generator.js";
 //import "./Global/set.js";
