@@ -11,18 +11,18 @@
 
 // Destructive Assignment for Object
 {
-  const mars = {
+  const props = {
     name: "Mars",
     moons: ["Phobos", "Deimos"],
     temperature: -63,
     distance: 1.524
   };
+  ({ name, moons }) => {
+    //const { name, moons } = props;
 
-  const { name, moons, ...loput } = mars;
-
-  console.log(name);
-  console.log(moons);
-  console.log(loput);
+    console.log(name);
+    console.log(moons);
+  };
 }
 
 // Destructive Assignment with default values
